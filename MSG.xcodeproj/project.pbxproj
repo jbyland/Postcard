@@ -13,6 +13,8 @@
 		AC5C9DA919D7A67500F1E0EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5C9DA819D7A67500F1E0EF /* Images.xcassets */; };
 		AC5C9DAC19D7A67500F1E0EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5C9DAA19D7A67500F1E0EF /* LaunchScreen.xib */; };
 		AC5C9DB819D7A67600F1E0EF /* MSGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C9DB719D7A67600F1E0EF /* MSGTests.swift */; };
+		AC5C9DC219D7A7BA00F1E0EF /* IMG_0515.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AC5C9DC119D7A7BA00F1E0EF /* IMG_0515.JPG */; };
+		AC5C9DC419D7AC8700F1E0EF /* IMG_0495.PNG in Resources */ = {isa = PBXBuildFile; fileRef = AC5C9DC319D7AC8600F1E0EF /* IMG_0495.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AC5C9DB119D7A67500F1E0EF /* MSGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5C9DB619D7A67600F1E0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5C9DB719D7A67600F1E0EF /* MSGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSGTests.swift; sourceTree = "<group>"; };
+		AC5C9DC119D7A7BA00F1E0EF /* IMG_0515.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0515.JPG; sourceTree = "<group>"; };
+		AC5C9DC319D7AC8600F1E0EF /* IMG_0495.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0495.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		AC5C9D9F19D7A67500F1E0EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AC5C9DC319D7AC8600F1E0EF /* IMG_0495.PNG */,
+				AC5C9DC119D7A7BA00F1E0EF /* IMG_0515.JPG */,
 				AC5C9DA019D7A67500F1E0EF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				AC5C9DA719D7A67500F1E0EF /* Main.storyboard in Resources */,
 				AC5C9DAC19D7A67500F1E0EF /* LaunchScreen.xib in Resources */,
+				AC5C9DC219D7A7BA00F1E0EF /* IMG_0515.JPG in Resources */,
+				AC5C9DC419D7AC8700F1E0EF /* IMG_0495.PNG in Resources */,
 				AC5C9DA919D7A67500F1E0EF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +344,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MSG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -346,9 +356,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MSG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
